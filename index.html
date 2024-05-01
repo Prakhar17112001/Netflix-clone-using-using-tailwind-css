@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix | Homepage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- banner section -->
+    <section class="w-[100%] h-[100vh] bg-[url(IN-en-20240422-popsignuptwoweeks-perspective_alpha_website_small.jpg)] bg-center bg-cover">
+         <!-- tailwind me square brackets me custom classes use hoti hai -->
+        <div class="w-[100%] h-[100vh] bg-[rgba(0,0,0,0.5)]">
+            <header class="max-w-[1170px] mx-auto">
+                <div class="grid sm:grid-cols-2 grid-cols-[30%_auto] px-[10px] items-center">
+                    <figure>
+                        <img src="Netflix-Logo.wine.png" alt="" class="w-[148px]">
+                    </figure>
+                    <div>
+                        <div class="flex justify-end gap-[2]">
+                            <div class="relative">
+                                <select name="" id="" class="bg-[black] text-white border-[1px] border-[white] sm:p-[5px_25px] rounded-[5px]">
+                                    <option value="">English</option>
+                                    <option value="">Hindi</option>
+                                </select>
+                            </div>
+                            <button class="bg-[red] px-[10px] text-[white] rounded-[5px]">
+                            Sign in
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="max-w-[1170px] mx-auto sm:py-[150px] py-[50px] text-center">
+                <h1 class="sm:text-[50px] text-[35px] text-white font-bold">Unlimited movies , TV shows and more</h1>
+                <h4 class="text-white text-[20px] py-[15px]">Watch anywhere . Cancel anytime</h4>
+                <p class="text-[20px]">Ready to watch ? Enter your Email create or restart membership</p>
+
+                <div class="max-w-[700px] sm:px-[10px] px-[40px] mx-auto mt-[30px]">
+                    <form action="" class="grid sm:grid-cols-[70%_auto] gap-[20px]  sm:grid-cols-1">
+                        <input type="text" class="border-[1px] border-[#ccc] h-[50px] pl-[20px] bg-[transparent]" placeholder="Email Address">
+                        <button class="bg-[red] px-[10px] text-[white] rounded-[5px] py-15px hover:bg[rgb(193,17,25)] duration-300 text-[20px]"> Get started</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner section end  -->
+    <!-- tv section  -->
+        <section class="w-[100%] border-t-[8px] border-t-[#605d5d] sm:py-[50px] py-[50px] bg-[black]">
+            <div class="max-w-[1170px] mx-auto px-[15px]">
+                <div class="grid sm:grid-cols-2 sm:grid-cols-1 text-white items-center">
+                    <div class="text-white">
+                        <h2 class="sm:text-50px font-bold text-[40px]">Enjoy your TV</h2>
+                        <p class="sm:text-[25px] text-[20px] pt-[30px]">Watch on smart TvS , playstation ,xbox ,chromecast <br>,apple tv and many more.</p>
+                    </div>
+                    <figure class="relative">
+                        <video class="absolute w-[80%] left-[10%] bottom-[20%] z-[1]"><source src="video-tv-in-0819.m4v"></video>
+                        <img class="relative z-[2]" src="tv.png" alt="">
+                    </figure>
+                </div>
+            </div>
+        </section>
+    <!-- tv section end  -->
+
+    <!-- download section start  -->
+    <section class="w-[100%] border-t-[8px] border-t-[#605d5d] sm:py-[70px] py-[50px] bg-[black]">
+        <div class="max-w-[1170px] mx-auto px-[15px]">
+            <div class="grid sm:grid-cols-2 sm:grid-cols-1 text-white items-center">
+                
+                <figure class="relative sm:order-1 order-2">
+                   <img src="mobile-0819.jpg" alt="">
+                   <div class="sm:w-[60%] w-[80%] absolute sm:left-[20%] left-[10%] border-[1px] border-[#ccc] bottom-[0px] grid grid-cols-[70%_auto] bg-[black] items-center rounded-[10px]">
+                    <div class="grid grid-cols-[25%_auto] gap-[10px] p-[10px] items-center">
+                        <img src="boxshot.png" alt="">
+                        <div class="text-white">
+                            <h3 class="font-bold text-[14px] ">Stranger Things</h3>
+                            <p class="text-[blue]">Downloading....</p>
+                        </div>
+                    </div>
+                    <div><img src="loading image #" alt=""></div>
+                   </div>
+                </figure>
+                <div class="text-white sm:order-2 order-1">
+                    <h2 class="text-50px font-bold text-[40px] sm:leading-[65px] leading-[50px]">Download your shows to watch offline</h2>
+                    <p class="sm:text-[25px] text-[20px] pt-[30px]">Save your favourites easily and always have something to watch</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- downlaod section end  -->
+
+    <!-- watch everywhere section start -->
+
+    <section class="w-[100%] border-t-[8px] border-t-[#605d5d] sm:py-[50px] py-[50px] bg-[black]">
+        <div class="max-w-[1170px] mx-auto px-[15px]">
+            <div class="grid sm:grid-cols-2 sm:grid-cols-1 text-white items-center">
+                <div>
+                    <h2 class="sm:text-50px font-bold text-[40px]">Watch everywhere</h2>
+                    <p class="sm:text-[25px] text-[20px] pt-[30px]">Stream unlimited movies and TV shows on your phone,<br>tablet,laptop,and TV.</p>
+                </div>
+                <figure class="relative">
+                    <video class="absolute w-[60%] left-[20%] bottom-[40%] z-[1]"><source src="video-devices-in.m4v"></video>
+                    <img class="relative z-[2]" src="device-pile-in.png" alt="">
+                </figure>
+            </div>
+        </div>
+    </section>
+     <!-- watch everywhere section end  -->
+
+    <!-- kids section start -->
+    <section class="w-[100%] border-t-[8px] border-t-[#605d5d] sm:py-[80px] py-[50px] bg-[black]">
+        <div class="max-w-[1170px] mx-auto px-[15px]">
+            <div class="grid sm:grid-cols-2 sm:grid-cols-1 text-white items-center">
+                <figure class="relative sm:order-1 order-2">
+                    <img src="AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png" alt="">
+                </figure>
+                <div class="text-white sm:order-2 order-1">
+                    <h2 class="sm:text-50px font-bold text-[40px]">Create Profile for kids</h2>
+                    <p class="sm:text-[25px] text-[20px] pt-[30px]">Send children on adventures with their favourite charaters in a space made just for them-free with your memebership..</p>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <!-- kids section end-->
+
+    <!-- faq questions start -->
+    <section class="w-[100%] border-t-[8px] border-t-[#605d5d] sm:py-[80px] py-[50px] bg-[black]">
+        <div class="max-w-[1170px] mx-auto px-[15px]">
+           <h2 class="sm:text-50px font-bold text-[40px] text-center text-white">Frequently asked questions</h2>
+           <div class="py-[30px]">
+                <div class="bg-[#2d2d2d] mb-[15px]">
+                    <div class="p-[20px] text-white text-[30px] relative border-b-[2px] border-[black] hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer faqquestion"><h3>What is Netflix?<span class="absolute right-[20px] top-[15px] ">+</span></h3></div>
+
+                    <div class="text-white text-[20px] scale-y-0 h-[0px] origin-top duration-300">
+                        <p>Straeming platform</p>
+                    </div>
+                </div>
+                <div class="bg-[#2d2d2d] mb-[15px]">
+                    <div class="p-[20px] text-white text-[30px] relative border-b-[2px] border-[black] hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer faqquestion"><h3>What is Netflix?<span class="absolute right-[20px] top-[15px] ">+</span></h3></div>
+
+                    <div class="text-white text-[20px] scale-y-0 h-[0px] origin-top duration-300">
+                        <p>Straeming platform</p>
+                    </div>
+                </div>
+                <div class="bg-[#2d2d2d] mb-[15px]">
+                    <div class="p-[20px] text-white text-[30px] relative border-b-[2px] border-[black] hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer faqquestion"><h3>What is Netflix?<span class="absolute right-[20px] top-[15px] ">+</span></h3></div>
+
+                    <div class="text-white text-[20px] scale-y-0 h-[0px] origin-top duration-300">
+                        <p>Straeming platform</p>
+                    </div>
+                </div>
+                <div class="bg-[#2d2d2d] mb-[15px]">
+                    <div class="p-[20px] text-white text-[30px] relative border-b-[2px] border-[black] hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer faqquestion"><h3>What is Netflix?<span class="absolute right-[20px] top-[15px] ">+</span></h3></div>
+
+                    <div class="text-white text-[20px] scale-y-0 h-[0px] origin-top duration-300">
+                        <p>Straeming platform</p>
+                    </div>
+                </div>
+           </div>
+           <p class="text-[20px] text-center text-white">Ready to watch ? Enter your Email create or restart membership</p>
+
+           <div class="max-w-[700px] sm:px-[10px] px-[40px] mx-auto mt-[30px]">
+               <form action="" class="grid sm:grid-cols-[70%_auto] gap-[20px]  sm:grid-cols-1">
+                   <input type="text" class="border-[1px] border-[#ccc] h-[50px] pl-[20px] bg-[transparent]" placeholder="Email Address">
+                   <button class="bg-[red] px-[10px] text-[white] rounded-[5px] py-15px hover:bg[rgb(193,17,25)] duration-300 text-[20px]"> Get started</button>
+               </form>
+           </div>
+        </div>
+    </section>
+    <!-- faq questions end  -->
+
+    <!-- footer section start -->
+
+    <footer class="w-[100%] border-t-[8px] border-t-[#605d5d] sm:py-[50px] py-[50px] bg-[black]">
+        <div class="max-w-[1170px] mx-auto px-[15px]">
+            <h3 class="text-[#ccc] text-[18px]">Questions? Call <a class="underline" href="tel:000-444-444-6666">000-444-444-6666</a></h3>
+            <div class="py-[30px] grid sm:grid-cols-3 grid-cols-1"> 
+                <div>
+                    <ul class="text-[#ccc]">
+                       <li class="mb[10px]"><a class="underline" href="">Faq</a></li class="mb[10px]">
+                       <li class="mb[10px]"><a class="underline" href="">Media center</a></li class="mb[10px]">
+                       <li class="mb[10px]"><a class="underline" href="">ways to watch</a></li class="mb[10px]">
+                       <li class="mb[10px]"><a class="underline" href="">cookies preference</a></li class="mb[10px]">
+                    </ul>
+                </div>
+                <div>
+                    <ul class="text-[#ccc]">
+                        <li class="mb[10px]"><a class="underline" href="">Faq</a></li class="mb[10px]">
+                        <li class="mb[10px]"><a class="underline" href="">Media center</a></li class="mb[10px]">
+                        <li class="mb[10px]"><a class="underline" href="">ways to watch</a></li class="mb[10px]">
+                        <li class="mb[10px]"><a class="underline" href="">cookies preference</a></li class="mb[10px]">
+                     </ul>
+                </div>
+                <div>
+                    <ul class="text-[#ccc]">
+                        <li class="mb[10px]"><a class="underline" href="">Faq</a></li class="mb[10px]">
+                        <li class="mb[10px]"><a class="underline" href="">Media center</a></li class="mb[10px]">
+                        <li class="mb[10px]"><a class="underline" href="">ways to watch</a></li class="mb[10px]">
+                        <li class="mb[10px]"><a class="underline" href="">cookies preference</a></li class="mb[10px]">
+                     </ul>
+                </div>
+            </div>
+    </footer>
+
+    <!-- footer section end -->
+
+</body>
+<script>
+     let allquestions =  document.querySelectorAll(".faqquestion");
+        allquestions.forEach((v,index)=>{
+            v.addEventListener('click',()=>{
+                v.nextElementSibling.classList.toggle("h-[auto]")
+                v.nextElementSibling.classList.toggle("scale-y-[100]")
+                v.nextElementSibling.classList.toggle("p-[20px]")
+                v.children[1].classList.toggle("rotate-45")
+
+
+                allquestions.forEach((el,i)=>{
+                    if(i!=index){
+                        el.nextElementSibling.classList.remove("h-[auto] , scale-y-[100] , p-[20px]")
+                        el.children[1].classList.remove("rotate-45")
+                    }
+                })
+
+            })
+        })
+</script>
+</html>
